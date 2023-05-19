@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+    <form id="myForm">
+        <label for="quote">Quote:</label>
+        <input type="text" id="quote" name="quote"><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+
+    <script>
+        var data = {"id": 101, "advice": "Alway do anything for love, but don't do that.", "date": "2015-12-08"};
+
+        document.getElementById("quote").value = data.quote;
+
+    </script>
+</body>
+</html>
